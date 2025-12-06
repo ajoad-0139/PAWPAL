@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "dev:all": "concurrently \"npm --prefix ./gateway run dev\" \"npm --prefix ./adoption run dev\" \"npm --prefix ./user run dev\""
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
